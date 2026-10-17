@@ -37,3 +37,14 @@ GitHub is used to store and share the repository remotely.
 ## Note
 These scripts simulate application logic for educational purposes.
 They do not connect to a live AttendX application.
+
+
+## Version Control Demonstration
+
+This repository demonstrates:
+- Creating a local Git repository.
+- Staging and committing test scripts.
+- Pushing commits to GitHub.
+- Pulling remote changes into the local repository.
+- Viewing commit history.
+
