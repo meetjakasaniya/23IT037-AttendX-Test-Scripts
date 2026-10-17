@@ -22,9 +22,13 @@ def test_empty_username():
     assert login("", "attendx123") is False
     print("PASS: Empty username is rejected")
 
+def test_empty_password():
+    assert login("student1", "") is False
+    print("PASS: Empty password is rejected")
 
 if __name__ == "__main__":
     test_valid_login()
     test_invalid_password()
     test_empty_username()
+    test_empty_password()
     print("All login tests passed.")
